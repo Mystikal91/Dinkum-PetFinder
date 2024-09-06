@@ -1,6 +1,6 @@
 # Dinkum-PetFinder
 
-Nexus Mod Link: <https://www.nexusmods.com/dinkum/mods/347>
+Nexus Mod Link: <https://www.nexusmods.com/dinkum/mods/347>  
 A simple BepInEx mod for Dinkum that allows to display icons for Pet Animals on Map and Minimap. It's possible to configure which animals to display
 
 **Brief disclaimer: In multiplayer games only the host will see the icons**
