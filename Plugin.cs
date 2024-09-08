@@ -193,7 +193,7 @@ namespace mystikal.dinkum.PetFinder
 					icons[i].SetPosition(tileX, tileY);
 
 					// If the user pinged this icon, we add to the NetworkMapSharer.Instance, so it's shared with every player
-					if ((bool)icons[i].ping.activeSelf)
+					if (icons[i].ping.activeSelf)
 					{
 						if (!NetworkMapSharer.Instance.mapPoints.Contains(icons[i].MyMapPoint))
 							NetworkMapSharer.Instance.mapPoints.Add(icons[i].MyMapPoint);
